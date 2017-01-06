@@ -1,0 +1,18 @@
+import pyttsx
+import serial
+engine = pyttsx.init()
+port = 'com12'
+baudrate = 250000
+arduino = serial.Serial(port,baudrate,timeout =0.1)
+arduino.flushInput()
+arduino.flushOutput()
+b = '1'
+while True:
+    arduino.write(b[0])
+    if (arduino.inWaiting > 0):
+        #rate = engine.getProperty('rate')
+        #engine.setProperty('rate',rate+50)
+        data = arduino.readline()
+        engine.say(data)
+        engine.runAndWait()
+        print data
