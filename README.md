@@ -28,13 +28,14 @@ Steps:
   
   Training : This Involves teaching the algorithm what kind of data it data it should expect. As of now each gesture is associated with   a character ( case sensitive ). This means that you can teach the algorithm a maximum of about 60 different gestures.
   
-  Enter the following command in cmd to execute the python script.(port=your arduino com port, target= (gesture):(batch))
+  Enter the following command in cmd to execute the python script. [port=your arduino com port, target= (gesture):(batch)]
+                            
                             python start.py target=a:0 port=COM6
   
   Train the model: trainign the model lets you save gestures and be able to use them later.
+                            
                             python learn.py
-  
-  
+    
   Testing : Command for predictng a gesture and speech output
   
                             python start.py port=<YOUR_SERIAL_PORT> predict
