@@ -14,15 +14,17 @@ Steps:
 1. Make connections between Arduino and MPU9150(SDA-A4 , SCL-A5 , Vcc-3.3V , GND-Ground , INT-Digital Pin 2)
 2. Install Python and the required libraries.
 3. Now burn the Arduino code in Arduino.
-  STARTING BATCH
-  START -296 280 17140 -501 225 -1154 END
-  START 724 152 16228 -396 298 -176 END
-  START 372 16 16740 -346 219 -180 END
-  ...
-  START 1096 1200 16644 -206 288 -2445 END
-  START 1632 1060 16104 -290 95 -3108 END
-  CLOSING BATCH
- Open the Serial monitor and the press the button the output looks like the above format.
+
+                              STARTING BATCH
+                              START -296 280 17140 -501 225 -1154 END
+                              START 724 152 16228 -396 298 -176 END
+                              START 372 16 16740 -346 219 -180 END
+                              ...
+                              START 1096 1200 16644 -206 288 -2445 END
+                              START 1632 1060 16104 -290 95 -3108 END
+                              CLOSING BATCH
+
+Open the Serial monitor and the press the button the output looks like the above format.
  4.Now fpr Python part there are two steps:
  
   
