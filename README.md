@@ -1,19 +1,30 @@
 # Hand-gesture-to-speech
 Hello i'm working on a project to convert hand gestures to speech. It is mainly focused to help mute people to communicate with people who does'nt know sign languuage.
+This was a team project which I completed as my Final Year project with Ishan Goel, Aash Mohd, Saurav Pratap Singh.
 
-Items Required:
-Arduino Uno
-Python IDE(Anaconda, Spyder, Python(x,y))
-MPU9150 or MPU 6050(You could use any motion sensor just retrieve the raw accl,gyro,mag value and send to python script)
-1-Push Button
-Flex Sensors(You can also use velostat for making your own flex sensor.)
-Resistors
-Arduino USB cable type A/B
+  Items Required:
 
-Steps:
-1. Make connections between Arduino and MPU9150(SDA-A4 , SCL-A5 , Vcc-3.3V , GND-Ground , INT-Digital Pin 2)
-2. Install Python and the required libraries.
-3. Now burn the Arduino code in Arduino.
+  Arduino Uno
+
+  Python IDE(Anaconda, Spyder, Python(x,y))
+  
+  MPU9150 or MPU 6050(You could use any motion sensor just retrieve the raw accl,gyro,mag value and send to python script)
+
+  1-Push Button
+
+  Flex Sensors(You can also use velostat for making your own flex sensor.)
+
+  Resistors
+  
+  Arduino USB cable type A/B
+
+  Steps:
+  
+  1. Make connections between Arduino and MPU9150(SDA-A4 , SCL-A5 , Vcc-3.3V , GND-Ground , INT-Digital Pin 2)
+
+  2. Install Python and the required libraries.
+
+  3. Now burn the Arduino code in Arduino.
 
                               STARTING BATCH
                               START -296 280 17140 -501 225 -1154 END
